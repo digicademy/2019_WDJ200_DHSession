@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DH Session: epidat </title>
+
+        <!-- meta information -->
+        <meta name="author" content="Thomas Kollatz" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <!-- favicons -->
+        <link rel="shortcut icon" href="resources/img/favicon.png" />
+        <link rel="apple-touch-icon" href="resources/img/apple-touch-icon.png" />
+
+        <!-- CSS reset and grid -->
+        <link href="vendor/normalize/normalize-4.1.1.css" rel="stylesheet" />
+        <link href="vendor/skeleton/skeleton-2.0.4.css" rel="stylesheet" />
+
+        <!-- fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,600italic,400italic,700italic,800,800italic&amp;subset=latin,latin-ext"
+            rel="stylesheet" type="text/css" />
+
+        <!-- styles for included libraries -->
+
+        <!-- chartist -->
+        <link rel="stylesheet" href="vendor/chartist/chartist.min-0.9.7.css" />
+
+        <!-- unite gallery -->
+        <link rel="stylesheet" href="vendor/unitegallery/css/unite-gallery.css" type="text/css" />
+
+        <!-- codemirror -->
+        <link rel="stylesheet" href="vendor/codemirror/lib/codemirror.css" />
+
+
+
+        <!-- highlight -->
+        <link rel="stylesheet" href="vendor/highlight/styles/default.css" />
+        <link rel="stylesheet" href="resources/css/hljs.linenumbering.css" />
+
+        <!-- swiper -->
+        <link rel="stylesheet" href="vendor/swiper/swiper.min.css" />
+
+
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup-1.1.0.css" />
+
+        <!-- standard presentation styles -->
+        <link href="resources/css/style.css" rel="stylesheet" />
+
+        <!-- custom presentation styles -->
+        <link href="resources/css/custom.css" rel="stylesheet" />
+        
+        <!-- hint styles -->
+        <link href="resources/css/hint.css" rel="stylesheet" />
+        
+        <!-- js needed in head -->
+
+        <!-- greuler -->
+        <script src="vendor/d3/d3-3.5.6.js"></script>
+        <script src="vendor/cola/cola.v3.min.js"></script>
+        <script src="vendor/greuler/greuler-0.5.5.min.js"></script>
+
+        <!-- html5 dataset shim for IE -->
+        <script src="vendor/impress/html5-dataset.js" type="text/javascript"></script>
+        <!-- UnifrakturCook for Headers -->
+        <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700|UnifrakturMaguntia"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <div class="fallback-message">
+            <p> Your browser <strong>doesn't support the features required</strong> by
+                impress.mod.js, so you are presented with a simplified version of this presentation. </p>
+            <p> For the best experience please use the latest <strong>Chrome</strong>,
+                    <strong>Safari</strong> or <strong>Firefox</strong> browser. </p>
+        </div>
+        <div id="impress">
+            <div class="step">
+                <h5><strong>2019-06-19</strong> | Ort Heidelberg <a href="https://wdj200.unikt-kongresse.de/program/wednesday-june-19/">WDJ200</a>
+                </h5>
+                <h5><strong><a href="https://wdj200.unikt-kongresse.de"> Grey Areas </a> Two Centuries of Jewish Studies
+                    </strong></h5>
+                <h1 class="red down-100">Epidat</h1>
+                <h2 class=" down-25">Research Platform for Jewish Epigraphy</h2>
+                <!--<div class="hint">
+                    <p>☞ Use a spacebar or arrow keys to navigate. </p>
+                </div>-->
+                <h5 class="down-100"> View online <a href="https://digicademy.github.io/"
+                        title="View the presentation online"> https://digicademy.github.io/2019_WDJ200_DHSession</a>
+                   <!-- <br /> code <a href="https://github.com/digicademy/"
+                        >https://github.com/digicademy/2019_WDJ200_DHSession</a>-->
+                </h5>
+                <h5>
+                    <strong><a href="http://orcid.org/0000-0003-1904-1841">Thomas Kollatz</a> <br/>Digitale Akademie@Akademie der Wissenschaften und Literatur | Mainz
+                        <br />
+                        <img src="resources/img/Twitter_bird_logo_2012.svg" alt="Twitter"
+                            class="twitter-icon" />
+                        <a href="https://twitter.com/kol_t" title="Thomas Kollatz on Twitter"
+                            >@kol_t</a>
+                        <a href="https://twitter.com/digicademy" title="Digitale Akademie"
+                            >@digicademy</a>
+                        <img src="resources/img/Octicons-mark-github.svg" alt="Twitter"
+                            class="gh-icon" />
+                        <a href="https://github.com/digicademy" title="digicademy on GitHub"
+                            >digicademy</a> • <a href="https://creativecommons.org/licenses/by/4.0/"
+                            >CC-BY 4.0</a></strong>
+                </h5>
+            </div>
+            
+            <div class="step" id="literature">
+                <h2 class="red">Software &amp; Literatur</h2>
+                <h4>Software</h4>
+                <ul class="small line-height-one-five">
+                    <li>
+                        <a href="https://github.com/impress/impress.js">Impress.js</a>
+                        (Präsentation) </li>
+                    <li>
+                        <a href="https://github.com/dimsemenov/Magnific-Popup">Magnific Popup</a>
+                        (Lightbox) </li>
+                </ul>
+            </div>
+          <!--  <div class="step">
+                <h2 class="red centered">DEMO</h2>
+            </div>-->
+            <div class="step">
+                <div class="centered">
+                    <h1 class="red">F I N I S</h1>
+                    <h2>סוף דבר הכל נשמע</h2>
+                </div>
+                <div class="centered down-100">
+                    <h3>
+                        <a href="#literature">Software und Literatur</a></h3><p class="x-small"></p>
+                </div>
+            </div>
+        </div>
+        <!-- jquery -->
+        <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
+        <!-- unite gallery -->
+        <script type="text/javascript" src="vendor/unitegallery/js/unitegallery.min.js"></script>
+        <script type="text/javascript" src="vendor/unitegallery/themes/tiles/ug-theme-tiles.js"></script>
+        <script type="text/javascript" src="resources/js/unite.gallery.js"></script>
+        <!-- chartist -->
+        <script src="vendor/chartist/chartist.min-0.9.7.js"></script>
+        <script src="resources/js/chartist.charts.js"></script>
+        <!-- codemirror -->
+        <script src="vendor/codemirror/lib/codemirror.js"></script>
+        <script src="vendor/codemirror/addon/edit/matchbrackets.js"></script>
+        <script src="vendor/codemirror/mode/sparql/sparql.js"></script>
+        <script>
+        var editor = CodeMirror.fromTextArea(document.getElementById("sparql"), {
+            mode: "application/sparql-query",
+            matchBrackets: true,
+            lineNumbers: true,
+            viewportMargin: Infinity
+        });
+    </script>
+        <!-- highlight -->
+        <script src="vendor/highlight/highlight.pack-9.3.0.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <script src="resources/js/hljs.linenumbering.js"></script>
+        <!-- swiper -->
+        <script src="vendor/swiper/swiper.min.js"></script>
+        <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            hashnav: true
+        });
+    </script>
+        <!-- magnific popup -->
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min-1.1.0.js"></script>
+        <script src="resources/js/magnific-popup.lightbox.js"></script>
+        <!-- impress.mod.js -->
+        <script src="vendor/impress/impress.fork.js"></script>
+        <script src="vendor/impress/impress-slidenum.js"></script>
+        <script>
+        var obj = impress();
+        obj.init();
+        initSlideNo(obj);
+    </script>
+        <!-- Links to TEI-Documentation -->
+        <script src="resources/js/tei-documentation-links.js">
+    </script>
+    </body>
+</html>
