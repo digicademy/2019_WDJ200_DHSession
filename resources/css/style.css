@@ -285,6 +285,15 @@ IMAGES
 img {
 	width: 100%;
 }
+.box {
+	position: relative;
+}
+
+.box img, .box svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
 
 /*
 #########################################################
