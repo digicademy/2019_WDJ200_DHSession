@@ -1,4 +1,10 @@
+/*  hebrew from epidat */
 
+.akr {color:red}
+.chr {color:blue}
+.znalt {display:none}
+
+dd {margin:0}
 /* ENABLE POINTER EVENTS ON SPECIAL ELEMENTS */
 .present a,
 .prsent a:hover,
